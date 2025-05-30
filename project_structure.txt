@@ -1,0 +1,44 @@
+
+EventOnClick/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── EventCard.js
+│   │   │   ├── EventForm.js
+│   │   │   ├── EventList.js
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── EventDetails.js
+│   │   │   ├── CreateEvent.js
+│   │   │   ├── Dashboard.js
+│   │   │   └── Auth.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   └── package.json
+├── backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── eventController.js
+│   │   └── userController.js
+│   ├── models/
+│   │   ├── Event.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── events.js
+│   │   └── users.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── config/
+│   │   └── db.js
+│   ├── server.js
+│   └── package.json
+└── README.md
